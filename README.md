@@ -10,7 +10,7 @@ A production-grade implementation of rootless containers on RHEL 9, utilizing Sy
 
 ## 🚀 Quick Start
 1. **Prepare User**:
-   ```bash
+```bash
 [danny@rhel ~]$ sudo useradd -m -s /bin/bash sysadmin
 [danny@rhel ~]$ cat /etc/subuid
 danny:100000:65536
