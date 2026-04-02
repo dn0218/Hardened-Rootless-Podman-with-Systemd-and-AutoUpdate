@@ -3,7 +3,7 @@
 ## 1. Security Hardening (Rootless)
 In traditional Docker, the daemon runs as `root`. In this project:
 - The `sysadmin` user is mapped to a range of UIDs via `/etc/subuid`.
-- ```bash
+```bash
   [danny@rhel ~]$ cat /etc/subuid
 danny:100000:65536
 sysadmin:165536:65536
