@@ -56,8 +56,8 @@ By adding `AutoUpdate=image` to the Quadlet file and enabling `podman-auto-updat
 3. Automatically restarts the Systemd service to apply the update.
 
 Test
-```bash
+
 <img width="716" height="422" alt="image" src="https://github.com/user-attachments/assets/5b32aa44-9ee7-4684-97be-7e83e963f7e8" />
 <img width="1428" height="448" alt="image" src="https://github.com/user-attachments/assets/ec149624-e0cb-4665-adb0-8091d9af87dd" />
 
-```
+
