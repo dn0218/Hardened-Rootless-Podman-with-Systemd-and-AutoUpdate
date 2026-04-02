@@ -57,32 +57,7 @@ By adding `AutoUpdate=image` to the Quadlet file and enabling `podman-auto-updat
 
 Test
 ```bash
-[sysadmin@rhel systemd]$ curl http://192.168.112.139:8080
-<!DOCTYPE html>
-<html>
-<head>
-<title>Welcome to nginx!</title>
-<style>
-html { color-scheme: light dark; }
-body { width: 35em; margin: 0 auto;
-font-family: Tahoma, Verdana, Arial, sans-serif; }
-</style>
-</head>
-<body>
-<h1>Welcome to nginx!</h1>
-<p>If you see this page, nginx is successfully installed and working.
-Further configuration is required for the web server, reverse proxy, 
-API gateway, load balancer, content cache, or other features.</p>
+<img width="716" height="422" alt="image" src="https://github.com/user-attachments/assets/5b32aa44-9ee7-4684-97be-7e83e963f7e8" />
+<img width="1428" height="448" alt="image" src="https://github.com/user-attachments/assets/ec149624-e0cb-4665-adb0-8091d9af87dd" />
 
-<p>For online documentation and support please refer to
-<a href="https://nginx.org/">nginx.org</a>.<br/>
-To engage with the community please visit
-<a href="https://community.nginx.org/">community.nginx.org</a>.<br/>
-For enterprise grade support, professional services, additional 
-security features and capabilities please refer to
-<a href="https://f5.com/nginx">f5.com/nginx</a>.</p>
-
-<p><em>Thank you for using nginx.</em></p>
-</body>
-</html>
 ```
