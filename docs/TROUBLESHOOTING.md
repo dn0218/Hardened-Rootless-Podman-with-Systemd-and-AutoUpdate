@@ -19,6 +19,7 @@ Failed to connect to bus: No medium found
 Failed to enable unit: Unit file app-server.service does not exist.
 ```
 **Root Cause**: Quadlet files MUST be in ~/.config/containers/systemd/. They are NOT standard systemd unit files.
+
 **Solution**:
 ```bash
 [sysadmin@rhel user]$ mkdir -p ~/.config/containers/systemd/
@@ -33,6 +34,7 @@ Failed to enable unit: Unit file app-server.service does not exist.
 Failed to enable unit: Unit /run/user/1001/systemd/generator/app-server.service is transient or generated.
 ```
 **Root Cause**: Quadlet services are automatically "enabled" by the generator. You only need to start them
+
 **Solution**:
 ```bash
 [sysadmin@rhel systemd]$ systemctl --user start app-server.service
