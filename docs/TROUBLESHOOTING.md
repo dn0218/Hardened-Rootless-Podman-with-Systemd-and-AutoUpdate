@@ -64,6 +64,7 @@ Alternatively, to run the image directly using podman or docker, or how to use i
   https://github.com/sclorg/nginx-container/blob/master/1.22/README.md.
 ```
 **Root Cause**: Using a Source-to-Image (S2I) UBI image without providing source code causes the Nginx process to exit immediately after printing help text.
+
 **Solution**:Use a standard Nginx image or provide an entrypoint command.
 Image Before:
 ```bash
@@ -82,6 +83,7 @@ Image=docker.io/library/nginx:latest
 curl: (7) Failed to connect to localhost port 8080: Connection refused
 ```
 **Root Cause**: PASTA driver's loopback isolation in rootless mode.
+
 **Solution**:Access via host's actual IP address or configure PASTA mapping.
 ```bash
 [sysadmin@rhel systemd]$ curl http://192.168.112.139:8080
